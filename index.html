@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body onload="getPricing()">
+    
+    <img class="matrix" src="../images/matrix.gif" alt="Matrix gif">
+
+    <div class="menu">
+        <div>
+            <h1 class="titolo">Biglietti Cinema</h1>
+            <ul>
+                <li>Costo per tutti: <span id="base"></span></li>
+                <li>Costo minori di 5 anni: <span id="child"></span></li>
+                <li>Costo per clienti con età compresa tra 18 e 25: <span id="adult"></span></li>
+                <li>Costo per clienti con età compresa tra 50 e 55: <span id="senior"></span></li>
+            </ul>
+        </div>
+        <div>
+            <h1 class="titolo">Lo Script</h1>
+            <button class="bottone" onclick="insEta()"><b>Inserisci</b></button>
+            <a href="https://s.yimg.com/lo/mysterio/api/bc92930f4e3e21b90df94f5491f6eb3528db13cace718a4a2b8f07fbc0a8007c/lightyear_networkapi/resizefill_w800_h450%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fknow_your_meme_909%2F5016e8ff08694f57e20e0fe45816c1d0"><button class="bottone" onclick="procedi()"><b>Continua</b></button></a>
+        </div>
+    </div>
+    
+    <script src="../js/script.js"></script>
+</body>
+</html>
